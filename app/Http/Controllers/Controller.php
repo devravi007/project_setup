@@ -22,7 +22,7 @@ class Controller extends BaseController
 
 
         // extract text of a limited amount of pages. here, it will only use the first two pages. 
-        // $text = $pdf->getText(2);
+        $text = $pdf->getText(2);
 
         // extract the text of a specific page (in this case the first page) 
         // $text = $pdf->getPages()[0]->getText();
