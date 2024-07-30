@@ -19,6 +19,8 @@ class Controller extends BaseController
         $content = $pdf->getText();
         $details = $pdf->getDetails();
 
+
+        
         // extract text of a limited amount of pages. here, it will only use the first two pages. 
         $text = $pdf->getText(2);
 
